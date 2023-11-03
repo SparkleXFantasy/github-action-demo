@@ -37,7 +37,7 @@ public class Main {
 		}
 		System.out.println("Test Case 3 (-1 + 5):");
 		try {
-			calculator.add(-1, 5);
+			calculator.add(-1.0, 5);
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
