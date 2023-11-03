@@ -28,7 +28,7 @@ public class Main {
 		Main calculator = new Main();
 		
 		// Test cases
-		System.out.println("Test Case 1 (5 + 5): " + calculator.add(5, 5));
+		System.out.println("Test Case 1 (5 + 5): " + calculator.add(5, 6));
 		System.out.println("Test Case 2 (Integer.MAX_VALUE + 1):");
 		try {
 			calculator.add(Integer.MAX_VALUE, 1);
